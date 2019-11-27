@@ -1,0 +1,13 @@
+---
+baseurl: "/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "文竹小筑"
+theme: "maupassant"
+metaDataFormat: "yaml"
+algolia:
+  index: "louissay.com"
+  key: "ec9f027b551cbfbd5cceaf4dd51b44b8"
+  appID: "QEE4PPZIKV"
+---
