@@ -1,6 +1,6 @@
 baseURL = "http://louissay.com"
 languageCode = "zh-CN"
-title = "文竹小筑"
+title = "陆益思的博客"
 theme = "maupassant"
 
 
@@ -8,10 +8,10 @@ theme = "maupassant"
   name = "Louis"
 
 [params]
-  author = "陆益思"
-  subtitle = "天将暮，与尔听风煮酒、戏摆龙门，可否？"
-  keywords = "文竹小筑,博客,java,python,微服务,项目管理,软件架构,区块链,比特币,BTC,公众号,小程序"
-  description = "专注于IT互联网，包括但不限于Java、Python、项目管理、软件架构等"
+  author = "louis"
+  subtitle = "学习,成长,投资."
+  keywords = "陆益思的博客,博客,微服务,云计算,项目管理,软件架构,区块链,比特币,BTC,公众号,小程序"
+  description = "专注于金融IT，包括但不限于开发、项目管理、软件架构、投资等"
   ## 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   # customCSS = ['douban.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file
@@ -21,6 +21,7 @@ theme = "maupassant"
   disablePathToLower = true
   toc = true
   googleAnalytics = "UA-153269519-1"
+  googleAd = ""
   ## 自定义文章摘要
   summaryLength = 140
   ## 自动检测是否包含中文/日文/韩文，该参数会影响摘要和字数统计功能，建议设置为true
@@ -48,9 +49,14 @@ theme = "maupassant"
     url = "/about/"
     weight = 3
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [[params.links]]
-  title = "文竹小筑"
-  name = "文竹小筑"
+  title = "陆益思的博客"
+  name = "陆益思的博客"
   url = "http://louissay.com"
 [[params.links]]
   title = "google搜索"
@@ -58,9 +64,20 @@ theme = "maupassant"
   url = "http://google.com"
 
 [[params.ads]]
-  title = "领取￥1888阿里云产品通用代金券"
-  url = "https://promotion.aliyun.com/ntms/act/enterprise-discount.html?userCode=jdg9oj97"
-  img = "https://img.alicdn.com/tfs/TB1aDXhXpzqK1RjSZFvXXcB7VXa-259-194.jpg"
+  title = "【高价格高返佣】企业级云服务器 1折特惠"
+  url = "https://promotion.aliyun.com/ntms/act/enterprise-discount.html?userCode=wjowsdm5"
+  img = "https://img.alicdn.com/tfs/TB1Gc3zmAL0gK0jSZFxXXXWHVXa-259-194.jpg"
+[[params.ads]]
+  title = "【大使渠道专属价】11月特惠 限时2折"
+  url = "https://www.aliyun.com/acts/limit-buy?userCode=wjowsdm5"
+  img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
+[[params.ads]]
+  title = "【全民云计算 老牌活动】云主机3年付低至3折"
+  url = "https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=wjowsdm5"
+  img = "https://img.alicdn.com/tfs/TB1KmFynxz1gK0jSZSgXXavwpXa-200-126.jpg"
+  
+
+
 
 ## 分类系统
 [taxonomies]

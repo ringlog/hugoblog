@@ -3,7 +3,7 @@ baseurl: "/"
 DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 languageCode: "zh-cn"
-title: "文竹小筑"
+title: "陆益思的博客"
 theme: "maupassant"
 metaDataFormat: "yaml"
 algolia:
